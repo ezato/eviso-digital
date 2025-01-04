@@ -1722,3 +1722,20 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+
+.counter-wrapper {
+  display: inline-flex;
+  /* align-items: baseline; */
+}
+
+.purecounter {
+  margin-right: 0.1em; /* Optional: Adds a little space between the number and the + */
+}
+
+.counter-plus {
+  color: var(--heading-color);
+  font-size: 2rem; /* Adjust size as needed */
+  line-height: 1; /* Ensures proper alignment */
+  vertical-align: middle; /* Aligns the + with the numbers */
+}
